@@ -20,18 +20,10 @@ end
 
 class Homosapiens < Men
 end
-petya = Homosapiens.new
-avstralopitek = Men.new
-gorila = Gominid.new
-king_julian = Primat.new
-dolphin = Mammalia.new
-deinonychus = Xordovie.new
-worm = Animal.new
-
-puts petya
-puts avstralopitek
-puts gorila
-puts king_julian
-puts dolphin
-puts deinonychus
-puts worm
+puts _petya = Homosapiens.new
+puts _avstralopitek = Men.new
+puts _gorila = Gominid.new
+puts _king_julian = Primat.new
+puts _dolphin = Mammalia.new
+puts _deinonychus = Xordovie.new
+puts _worm = Animal.new
