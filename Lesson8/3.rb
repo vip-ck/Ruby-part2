@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Person
+
   attr_accessor :familiya, :imy, :patronymic, :email
 
   def initialize(familiya:, imy:, patronymic:, email:)
@@ -8,6 +9,8 @@ class Person
     @imy = imy
     @patronymic = patronymic
     @email = email
+    
+    private if instance_of?(Person)
   end
 end
 
